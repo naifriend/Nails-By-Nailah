@@ -25,7 +25,7 @@ if (empty($name)) {
     echo "<br>";
     echo $message;
     
-    //QUESTION: how do i get user to return back to contact html and i still see the user output 
+    // get user to return back to contact html and i still see the user output 
     
     //header("Location: ../contact.html");
     //makes sure user goes back to orignal page after submitting 
