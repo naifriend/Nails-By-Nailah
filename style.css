@@ -137,7 +137,7 @@ nav .fa{
         text-align: left;
         z-index: 2;
         transition: 1s;
-        /* this is supposed to allow menu options to open on smaller device, And no the bigger one but not working. -200px was supposed to make menu hidden within hamburger menu.*/  
+        /* allows menu options to open on smaller device, And no the bigger one but not working. -200px was supposed to make menu hidden within hamburger menu.*/  
     }
     nav .fa{
         display: block;
@@ -145,7 +145,7 @@ nav .fa{
         margin: 10px;
         font-size: 22px;
         cursor: pointer;
-        /*this was supposed to make the X on menu visible on mobile. but didnt work*/
+        /* make the X on menu visible on mobile.*/
     }  
     .nav-links ul{
         padding: 30px;
@@ -160,7 +160,7 @@ nav .fa{
     text-align: center;
     padding-top: 100px;
     
-    /*course didnt add to center bottom on page*/
+    /*need to add course to center bottom on page*/
 }
 .services h1{
     font-size: 36px;
@@ -183,7 +183,7 @@ nav .fa{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
-    /*this made the headings at the bottom of the main screen into 3 different columns*/
+    /* made the headings at the bottom of the main screen into 3 different columns*/
 }
 .services .row {
     margin-top: 5%;
@@ -294,7 +294,7 @@ h3{
     opacity: 1; /*when this is removed, text doesnt show up on pictures when hovered over*/
     
 }
-/*-----------Care 50:00sec*/
+/*-----------Care 50:00*/
 /*.row{
     margin-top: 5%;
     display: flex;
@@ -436,7 +436,7 @@ border-radius: 50%; /*makes img circular*/
         background-size: auto;/*fitted imaged on screen*/
     text-align: center;
     color: #fff;
-    /*had to change height to minheight for thr banner to only take up half the banner*/
+    /*had to change height to minheight for the banner to only take up half the banner*/
 }
 .sub-header h1{
     margin-top: 100px;/*moved "title" down on about page */
@@ -606,4 +606,4 @@ background: #DE3163;
     border: 1px solid #ccc;
     box-sizing: border-box; /*adding this helped align everything in media view(everything going down the middle on screen and not shifting toward one side)*/
 }
-    /*-----------time 5:50-----------------*/
+    /*-----------5:50-----------------*/
