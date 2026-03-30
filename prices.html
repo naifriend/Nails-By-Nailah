@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<body class="prices-body">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0";>
+
+    <title>Nails by Nailah</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+       <!--I had to Replace the other Font Awesome link with the full all.css file (or the recommended CDN link)-->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--I had to Replace the other Font Awesome link with the full all.css file (or the recommended CDN link) this added the half star and social media icons-->
+
+</head>
+<body class="prices-page">
+    <section class="sub-header">    
+
+    <nav>
+        
+        <a href="index.html"><img src="images/nailswrdlogo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+ <!--closing icon from FontAwesome.com removed aria-hidden="true". on click makes it clickable -->
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="prices.html">PRICES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            
+                 </ul>
+        </div>  
+       <i class="fas fa-bars" onclick="showMenu()"></i>
+  <!--menu icon fron FontAwesome.com. removed (aria-hidden="true")-->
+
+    </nav>
+        <h1>My Prices</h1>
+   <!--REMOVED <div class="text-box">
+        <h1>Nails By Nailah</h1>
+        <p>kjdnvkfdv</p>   
+       <a href="" class="hero-btn">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+     </div>-->
+    </section>
+    <!--moved section down*/--->
+    
+
+    
+    
+    <!-------PRICES CONTENT----->   
+    <section class="prices-content">
+        <div class="row">
+            <div class="prices-left">
+           <!-- <img src="images/moneyflower.png">-->
+            <h2>Details:</h2>
+                <p>Basic manicure (natural nails): A foundation of quality starts here. My basic manicure includes shaping, cuticle care, and your choice of polish on natural nails for a classic, clean finish.</p>
+                <br>
+                <p>Initial enhancement sets: The pricing for nail enhancements depends on the material chosen and the starting length of your nails. Longer enhancements require more product and time, which is reflected in the final cost. </p>
+                
+        <!-- <div class="comment-box">
+                <h3>Leave a Comment</h3>
+             <form class="comment-form">
+                 <input type="text" placeholder="Enter Name">
+             <input type="email" placeholder="Enter Email">
+             <textarea name="" id="" cols="30" rows="5" placeholder="Your comment"></textarea>
+                 <button type="submit" class="hero-btn red-btn">SEND</button>
+             </form>
+                </div> -->
+                
+             </div>
+            <div class="prices-right">
+            <h3>Pricing</h3>
+            <div>
+            <span>Basic manicure (natural nail)</span>
+            <span>$20</span>
+            </div>
+            <div>
+            <span>French tips</span>
+            <span>+$15</span>
+            </div>
+                  <div>
+            <span>Freestyle Sets</span>
+            <span>$55-$95</span>  
+                </div>    
+                <div>
+            <span>Short length</span>
+            <span>$55</span>
+            </div>
+            <div>
+            <span>Medium length</span>
+            <span>$65</span>
+            </div>
+            <div>
+            <span>Long length</span>
+            <span>$75</span>
+            </div>
+                <div>
+            <span>Simple Design</span>
+            <span>$2-$5 per finger</span>
+            </div>
+                <div>
+            <span>Complex Design</span>
+            <span>$5-$10 per finger</span>
+            </div>
+                <div>
+            <span>Individual gems<br>or charms</span>
+            <span>$1-$2 per nail</span>
+            </div>
+                <div>
+            <span>Full coverage<br>charms/gems</span>
+            <span>$2-$5 per nail</span>
+        
+            </div>
+</div>
+  </div>
+      
+
+        
+    </section>
+        <!---------Footer----->    
+<section class="footer">
+    <h4>About Me</h4>
+    <p>My goal is to create not just beautiful nails, but a peaceful and refreshing experience every time you sit in my chair.<br>I believe that self-care is important, and my hope is that your time with me leaves you feeling confident, pampered, and perfectly polished.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+       </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Nailah</p>
+        
+                    
+    
+    </section>
+    
+    
+    <!------JavaScript for Toggle Menu------>
+    <script>
+    var navlinks = document.getElementById("navLinks");
+    /*/linked to <div class="nav-links" id="navLinks">*/
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function showMenu(){
+            navLinks.style.right = "-200px";
+            /*for some reason this moved the menu options up  and the image that was at the bottom*/
+            /*menu is not opening and closing*.=/
+        }
+    </script>
+</body>
+</html>

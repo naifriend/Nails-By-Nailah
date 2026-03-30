@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial- scale=1.0">
+    <title>Nails by Nailah</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+       <!--I had to Replace the other Font Awesome link with the full all.css file (or the recommended CDN link)-->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--I had to Replace the other Font Awesome link with the full all.css file (or the recommended CDN link) this added the half star and social media icons-->
+
+</head>
+<body class="about-body">
+    <section class="sub-header">    
+
+    <nav>
+        
+        <a href="index.html"><img src="images/nailswrdlogo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+ <!--closing icon from FontAwesome.com removed aria-hidden="true". on click makes it clickable -->
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="prices.html">PRICES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            
+                 </ul>
+        </div>  
+       <i class="fas fa-bars" onclick="showMenu()"></i>
+  <!--menu icon fron FontAwesome.com. removed (aria-hidden="true")-->
+
+    </nav>
+        <h1>About</h1>
+   <!--REMOVED <div class="text-box">
+        <h1>Nails By Nailah</h1>
+        <p>kjdnvkfdv</p>   
+       <a href="" class="hero-btn">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+     </div>-->
+    </section>
+    <!--moved section down*/--->
+    
+    <!---------Services(removed)---------->
+      <!------DESIGNS(removed)---------->
+     <!----------- Care 49:40 sec(removed)---------->
+      <!--------------Testimonials(removed)---------->
+      <!---------Call to Action(removed)---------->
+    
+    
+    <!---------ABOUT US CONTENT----->   
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+          <h1>What to Expect!</h1>  
+                <p>I believe your nails are a canvas for<br> expressing yourself!<br> Specializing in fun, vibrant designs,<br>  we bring your nail dreams to life<br>  with bold colors, playful patterns, and a touch of sparkle.<br>  From cute and whimsical art to elegant<br>  rhinestone accents, every set is <br> crafted with attention to detail and a passion for creativity. <br> Whether you're into trendy seasonal <br> styles or unique custom designs, <br> I offer a wide variety to match your mood, <br> outfit, or special occasion. <br> At Nails by Nailah, there's no limit <br> to how fun and fabulous your nails can be!</p>
+               <!--<a href="" class="hero-btn red-btn">EXPLORE NOW</a><!--added red-btn which needs the css properties to make it go into affect -->
+            </div>
+            <div class="about-col">
+                <img src="images/IMG_0826.JPEG">
+                 </div>
+        
+        </div>
+    </section>
+        <!---------Footer----->    
+<section class="footer">
+    <h4>About Me</h4>
+    <p>My goal is to create not just beautiful nails, but a peaceful and refreshing experience every time you sit in my chair.<br>I believe that self-care is important, and my hope is that your time with me leaves you feeling confident, pampered, and perfectly polished.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+       </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Nailah.</p>
+        
+                    
+    
+    </section>
+    
+    
+    <!------JavaScript for Toggle Menu------>
+    <script>
+    var navlinks = document.getElementById("navLinks");
+    /*/linked to <div class="nav-links" id="navLinks">*/
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+            /*for some reason this moved the menu options up  and the image that was at the bottom*/
+            /*menu is not opening and closing*.=/
+        }
+    </script>
+</body>
+</html>
